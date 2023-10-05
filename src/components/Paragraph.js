@@ -1,14 +1,10 @@
 import React from 'react';
-import AlfonsoImage from './img/Alfonso.jpg';
-import PabloImage from './img/Pablo.jpeg';
-import JorgeImage from './img/Jorge.jpg';
+
 
 const Paragraph = () => {
   return (
     <div>
-
       <div className="subjects">
-        <section className="subject">
           <div className="persona">
             <h2>¿Quiénes Somos?</h2>
             <p>
@@ -22,12 +18,17 @@ const Paragraph = () => {
               mientras trabajamos conjuntamente para dar vida a aplicaciones funcionales y de excelencia.
             </p>
           </div>
-        </section>
+      </div>
+    </div>
+  );
+};
 
-        <section className="subject">
-          <div className="persona">
-            <h2>¿Cuáles son nuestros objetivos?</h2>
-            <ul>
+export default Paragraph;
+
+/*  <section className="subject">
+      <div className="persona">
+          <h2>¿Cuáles son nuestros objetivos?</h2>
+            <div className="objetivos">
               <li>Comprender los conceptos fundamentales del diseño de software.</li>
               <li>Aplicar patrones de diseño en la creación de soluciones técnicas.</li>
               <li>Desarrollar habilidades en la planificación y gestión de proyectos de software.</li>
@@ -35,25 +36,8 @@ const Paragraph = () => {
               <li>Aprender a trabajar en equipo en entornos de desarrollo colaborativo.</li>
               <li>Profundizar en la resolución de problemas relacionados con el software.</li>
               <li>Adquirir conocimientos en el uso de herramientas de control de versiones.</li>
-            </ul>
+            </div>
           </div>
-        </section>
-
-        <section className="subject">
-          <div className="persona">
-            <h2>Formación del grupo</h2>
-            <section className="persona center">
-                <div className="image-container">
-                    <img src={PabloImage} alt="Programador Alfonso" width="120" height="200" />
-                    <img src={AlfonsoImage} alt="Programador Alfonso" width="120" height="200" />
-                    <img src={JorgeImage} alt="Programador Alfonso" width="120" height="200" />
-                </div>
-            </section>
-          </div>
-        </section>
-      </div>
-    </div>
-  );
-};
-
-export default Paragraph;
+      </section>
+        
+*/

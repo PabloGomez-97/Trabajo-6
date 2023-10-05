@@ -3,8 +3,8 @@ import React from 'react';
 const Header = () => {
   return <header>
     <div className="hero-text">
-        <h1>Bienvenido a mi página web</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt dolores est molestiae et temporibus, expedita molestias! Repellat iste laboriosam maxime repellendus iusto qui ipsam aperiam vitae, eveniet, cum magnam?</p>
+        <h1>Bienvenido a la página web de Los Photoshopers</h1>
+        <p>Esta página web fue creada con el objetivo de mostrar los conocimientos adquiridos en el curso de Diseño de Software.</p>
     </div>
 
   </header>;

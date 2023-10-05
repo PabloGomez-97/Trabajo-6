@@ -8,10 +8,12 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <>
+    <div className="App">
       <Header />
       <Paragraph />
       <List />
       <Footer />
+    </div>
     </>
   );
 }
