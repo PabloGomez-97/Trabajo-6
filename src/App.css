@@ -52,7 +52,7 @@
 
 .subjects {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   margin: 20px;
   grid-gap: 10px; /* Agrega una separación de 5px entre las columnas */
@@ -115,4 +115,34 @@
 .presentacion{
   text-align: justify;
   margin: 10px;
+}
+
+/* SECCIÓN SOLO PARA EL NAV-BAR */
+
+.navbar {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-item {
+  margin-right: 15px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-link {
+  margin: 20px;
+  border-radius: 5px;
 }

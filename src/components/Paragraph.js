@@ -1,5 +1,5 @@
 import React from 'react';
-
+import miGif from './img/giphy.gif'; // Importa el GIF
 
 const Paragraph = () => {
   return (
@@ -17,6 +17,9 @@ const Paragraph = () => {
               originales. En última instancia, nuestra meta radica en desarrollar nuestras habilidades en el diseño de software
               mientras trabajamos conjuntamente para dar vida a aplicaciones funcionales y de excelencia.
             </p>
+          </div>
+          <div className="persona">
+          <img src={miGif} alt="Mi GIF" /> {}
           </div>
       </div>
     </div>
