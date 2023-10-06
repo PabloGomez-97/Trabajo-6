@@ -2,34 +2,45 @@ import React from 'react';
 
 const Form = () => {
   return (
-    <form className="form" id="contactForms" action="#">
+    <div className='formulario-container'>
+      <form className="container mt-4">
       <fieldset>
         <legend>Completa el formulario</legend>
 
-        <div className="inputs">
-          <div className="input">
-            <label htmlFor="name">Nombre</label>
-            <input type="text" name="name" id="name" placeholder="Nombre" />
-          </div>
-
-          <div className="input">
-            <label htmlFor="phone">Telefono</label>
-            <input type="number" name="phone" id="phone" placeholder="99999999" />
-          </div>
-
-          <div className="input">
-            <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="example@example.com" />
-          </div>
-
-          <div className="input">
-            <label htmlFor="message">Mensaje</label>
-            <textarea name="message" id="message" cols="30" rows="2"></textarea>
-          </div>
+        <div className="mb-3">
+          <label htmlFor="name" className="form-label">
+            Nombre
+          </label>
+          <input type="text" className="form-control" id="name" placeholder="Nombre" />
         </div>
-        <input className="button full" type="submit" />
+
+        <div className="mb-3">
+          <label htmlFor="phone" className="form-label">
+            Teléfono
+          </label>
+          <input type="number" className="form-control" id="phone" placeholder="99999999" />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="email" className="form-label">
+            Email
+          </label>
+          <input type="email" className="form-control" id="email" placeholder="example@example.com" />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="message" className="form-label">
+            Mensaje
+          </label>
+          <textarea className="form-control" id="message" rows="2"></textarea>
+        </div>
+
+        <button type="submit" className="btn btn-primary">
+          Enviar
+        </button>
       </fieldset>
     </form>
+  </div>
   );
 };
 
