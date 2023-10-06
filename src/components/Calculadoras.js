@@ -3,7 +3,7 @@ import React from "react";
 const Calculadoras = () => {
   return (
     <header>
-      <div className="hero-text">
+      <div className="calculadoras">
         <h1>Nuestras complejas calculadoras!</h1>
         <section id="calculations" class="py-5">
           <div class="container">

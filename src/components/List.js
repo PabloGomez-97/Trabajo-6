@@ -28,7 +28,7 @@ const List = () => {
 
       <section className="persona12">
           <img src={AlfonsoImage} alt="Programador" width="150" height="200" />
-        <section className="texto2">
+        <section className="texto1">
           <h3>Alfonso Pinto</h3>
             <li>Carrera: Ingeniería Civil Informática</li>
             <li>Edad: 21 años</li>

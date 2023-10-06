@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Calculo from "./pages/Calculo";
+import Noabrir from "./pages/Noabrir";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/contacto" element={<Contact />} />
           <Route path="/calculo" element={<Calculo />} />
-
+          <Route path="/noabrir" element={<Noabrir />} />
         </Routes>
       </BrowserRouter>
     </div>

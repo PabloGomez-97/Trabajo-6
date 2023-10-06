@@ -27,20 +27,3 @@ const Paragraph = () => {
 };
 
 export default Paragraph;
-
-/*  <section className="subject">
-      <div className="persona">
-          <h2>¿Cuáles son nuestros objetivos?</h2>
-            <div className="objetivos">
-              <li>Comprender los conceptos fundamentales del diseño de software.</li>
-              <li>Aplicar patrones de diseño en la creación de soluciones técnicas.</li>
-              <li>Desarrollar habilidades en la planificación y gestión de proyectos de software.</li>
-              <li>Explorar técnicas de optimización de código para mejorar la eficiencia.</li>
-              <li>Aprender a trabajar en equipo en entornos de desarrollo colaborativo.</li>
-              <li>Profundizar en la resolución de problemas relacionados con el software.</li>
-              <li>Adquirir conocimientos en el uso de herramientas de control de versiones.</li>
-            </div>
-          </div>
-      </section>
-        
-*/

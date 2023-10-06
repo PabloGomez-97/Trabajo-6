@@ -1,13 +1,47 @@
 import React from 'react';
 
 const Contacto = () => {
-  return <header>
-    <div className="hero-text">
-        <h1>Formulario de Contacto</h1>
-        <p>Esta página web fue creada con el objetivo de mostrar los conocimientos adquiridos en el curso de Diseño de Software.</p>
-    </div>
+  return (
+    <div className='formulario-container'>
+      <form className="container mt-4">
+      <fieldset>
+        <legend>Completa el formulario</legend>
 
-  </header>;
+        <div className="mb-3">
+          <label htmlFor="name" className="form-label">
+            Nombre
+          </label>
+          <input type="text" className="form-control" id="name" placeholder="Nombre" />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="phone" className="form-label">
+            Teléfono
+          </label>
+          <input type="number" className="form-control" id="phone" placeholder="99999999" />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="email" className="form-label">
+            Email
+          </label>
+          <input type="email" className="form-control" id="email" placeholder="example@example.com" />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="message" className="form-label">
+            Mensaje
+          </label>
+          <textarea className="form-control" id="message" rows="2"></textarea>
+        </div>
+
+        <button type="submit" className="btn btn-primary">
+          Enviar
+        </button>
+      </fieldset>
+    </form>
+  </div>
+  );
 };
 
 export default Contacto;
